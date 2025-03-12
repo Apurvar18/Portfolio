@@ -1,0 +1,74 @@
+/* Projects Section */
+.projects {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 40px;
+  border-radius: 8px;
+  margin: 40px auto; /* Centers the projects section */
+  max-width: 80%; /* Prevents the box from stretching too wide */
+  min-width: 300px; /* Sets a minimum width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centers text within the box */
+}
+
+/* Section Heading */
+.projects h2 {
+  font-size: 2rem;
+  color: #fff; /* White text */
+  background-color: #000; /* Black background */
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Project Container */
+.project {
+  background-color: #222; /* Dark grey inner box */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Adds space between project sections */
+  max-width: 600px; /* Restricts width of project sections */
+  text-align: left; /* Aligns text to the left within the box */
+}
+
+/* Project Title */
+.project h3 {
+  font-size: 1.5rem;
+  color: #4db8ff; /* Light blue text */
+  margin-bottom: 10px;
+}
+
+/* Project Description */
+.project p {
+  font-size: 1rem;
+  color: #ddd; /* Light grey text */
+  margin-bottom: 15px;
+}
+
+/* Project Link */
+.project a {
+  font-size: 1rem;
+  color: #fff; /* White text */
+  background-color: #4db8ff; /* Light blue background */
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project a:hover {
+  background-color: #fff; /* White on hover */
+  color: #4db8ff; /* Light blue text */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .project {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,94 @@
+/* Skills Section */
+.skills {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 40px;
+  border-radius: 8px;
+  margin: 40px auto;
+  max-width: 80%;
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Section Heading */
+.skills h2 {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skill Category */
+.skills li {
+  font-size: 1.2rem;
+  color: #ddd;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Skills List */
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Skill Category Name (e.g., "Programming:") */
+.skills li {
+  font-weight: bold;
+}
+
+/* Skills Container - Displays skill blocks in a row */
+.skills li div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Skill Box */
+.skill-box {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #4db8ff;
+}
+
+/* Aligns "Programming:" and skill boxes in the same row */
+.skills li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .skills li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skills li div {
+    justify-content: flex-start;
+  }
+
+  .skill-box {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,27 @@
+/* src/components/AboutMe.css */
+.about-me {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for contrast */
+  padding: 40px;
+  border-radius: 8px;
+  margin: 40px auto; /* Adds vertical spacing and centers the box */
+  max-width: 80%; /* Limits the width of the box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  color: #fff; /* White text */
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  color: #ddd; /* Light grey text */
+  line-height: 1.6;
+}
+
+/* Optional: Add padding to the parent container */
+.container {
+  padding: 20px;
+}

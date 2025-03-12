@@ -1,0 +1,49 @@
+/* src/components/Contact.css */
+.contact {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto; /* Adds space around and centers the box */
+  max-width: 80%; /* Prevents the box from stretching too wide */
+  min-width: 300px; /* Sets a minimum width */
+  text-align: center; /* Centers text within the box */
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: #fff; /* White text */
+  margin-bottom: 15px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  color: #ddd; /* Light grey text */
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact li {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #4db8ff; /* Light blue link color */
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Add padding to the parent container for extra space */
+.container {
+  padding: 20px;
+}

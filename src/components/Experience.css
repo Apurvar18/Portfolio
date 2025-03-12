@@ -1,0 +1,64 @@
+/* src/components/Experience.css */
+.experience {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px; /* Reduced padding */
+  border-radius: 8px;
+  margin: 20px auto; /* Reduced space around */
+  max-width: 83%; /* Allows more width */
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.experience h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px; /* Less space under the title */
+  text-align: center;
+}
+
+.job {
+  background-color: #222;
+  padding: 15px; /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px auto; /* Reduced space between job sections */
+  max-width: 80%; /* Allows more width for job content */
+}
+
+.job h3 {
+  font-size: 1.5rem;
+  color: #4db8ff;
+  margin-bottom: 8px;
+  white-space: nowrap; /* Prevents text wrapping */
+  overflow: hidden; /* Hides overflow text */
+  text-overflow: ellipsis; /* Adds "..." if text overflows */
+}
+
+.job p {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.job ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job li {
+  font-size: 1rem;
+  color: #ccc;
+  padding: 6px 0;
+  border-bottom: 1px solid #444;
+}
+
+.job li:last-child {
+  border-bottom: none;
+}
+
+/* Optional: Add padding to the parent container */
+.container {
+  padding: 10px; /* Reduced padding */
+}
